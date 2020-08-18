@@ -1,0 +1,158 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container
+{
+  width: 800px;
+  margin: 50px auto 0;
+  display: table;
+  box-sizing: border-box;
+}
+.row{
+  margin: 20px 0;
+  /* border-left: 10px solid rgb(224, 224, 224); */
+
+}
+.column{
+  background-color:white;
+  display: table-cell;
+  padding: 10px;
+  width: 33.33333%;
+  text-align: center;
+  vertical-align: middle;
+  border-left: 10px solid rgb(224, 224, 224);
+  border-right: 10px solid rgb(224, 224, 224);
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/child.png");
+  background-attachment: fixed;
+  
+}
+
+header {
+  
+  background-color: #5299cf;
+  height: 120px;
+  padding-top: 1rem;
+  position: relative;
+  margin-top: 50px;
+}
+.header1{
+  background-color: white;
+  height: 80px;
+}
+
+header ul {
+  padding: 1.5rem;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul a:hover {
+  color: white;
+  background-color:  rgb(219, 216, 27);
+  
+}
+header li {
+  display: inline-block;
+
+}
+
+.left {
+  float: left;
+  padding-left: 2rem;
+  margin-top: 5pxl;
+
+}
+.center{
+  float: right;
+  padding-right: 50rem;
+  margin-top: 3.5rem;
+  color: rgb(25, 202, 25);
+
+
+}
+
+.right {
+  float: right;
+  padding-right: 1rem;
+
+}
+.main-header img {
+  
+  
+  top: 5rem;
+}
+.function {
+  background-color: rgb(224, 224, 224);
+}
+
+.function-images {
+  padding: 5px;
+  padding-bottom: 8rem;
+  margin: 10px;
+
+}
+
+.function-header {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.function-image {
+  display: inline-block;
+  padding: 1rem;
+  height: 10px;
+
+}
+
+footer {
+  background-color: #5299cf;
+  height: 40px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 100px;
+  margin: 0px;
+}
+.about{
+  text-align: center;
+}
+.logo{
+  top: 0;
+}
+.button{
+  position: relative;
+  text-align: center;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 100;
+  border: 5px solid #5299cf;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 2s;
+  background-color: orangered;
+
+}
+.address{
+  margin-top: 55px;
+}
+
+
+
